@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "gen:tenders": "node scripts/prepare-tenders.mjs",
+    "prebuild": "node scripts/prepare-tenders.mjs"
   },
   "dependencies": {
+    "lucide-react": "^0.548.0",
     "next": "^16.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
@@ -21,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
     "tailwindcss": "^4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   }
 }

@@ -4,7 +4,7 @@
   --brand: #1E40AF;
   --ink: #0F172A;
 }
-html,body{ height:100%; }
+html,body{ height:100%; width: 100%; }
 
 @theme inline {
   --color-background: var(--background);

@@ -20,9 +20,9 @@ export default function LoginPage(){
             <label className="text-sm">Contraseña</label>
             <Input type="password" placeholder="••••••••" />
           </div>
-          <Button className="w-full">Entrar</Button>
+          <Button className="w-full"><Link href="/dashboard">Entrar</Link> </Button>
           <div className="text-sm text-center text-slate-600">
-            ¿No tienes cuenta? <Link href="/" className="text-[var(--brand)]">Regístrate</Link>
+            ¿No tienes cuenta? <Link href="/dashboard" className="text-[var(--brand)]">Regístrate</Link>
           </div>
         </CardContent>
       </Card>
